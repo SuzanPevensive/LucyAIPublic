@@ -1,0 +1,443 @@
+@import url("https://use.typekit.net/ywg6unw.css");
+@import url("{{page-url}}/frames.css");
+@import url("{{page-url}}/pages.css");
+@import url("{{page-url}}/background.css");
+
+@font-face {
+    font-family: 'Chakra-Petch-Regular';
+    src:url('{{page-url}}/fonts/Chakra-Petch-Regular.ttf.woff') format('woff'),
+        url('{{page-url}}/fonts/Chakra-Petch-Regular.ttf.svg#Chakra-Petch-Regular') format('svg'),
+        url('{{page-url}}/fonts/Chakra-Petch-Regular.ttf.eot'),
+        url('{{page-url}}/fonts/Chakra-Petch-Regular.ttf.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root {
+    --said-frame-corner-size: 48px;
+    --said-frame-edge-length: calc(100% - var(--said-frame-corner-size));
+    --said-frame-edge-weight: calc(var(--said-frame-corner-size) * 0.5);
+    --said-frame-offset: calc(var(--said-frame-edge-weight) * -1);
+}
+
+html, body {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+}
+
+p {
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+}
+
+p:first-of-type {
+    margin-block-start: 0;
+}
+
+p:last-of-type {
+    margin-block-end: 0;
+}
+
+.said-page-container {
+    opacity: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: #000;
+    transition: opacity 0.5s;
+}
+
+.said-page-container .said-page-logo {
+    position: absolute;
+    max-width: none;
+}
+
+.said-page-container .said-page-logo-label {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: orbitron, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    gap: 2vh;
+    font-size: 9vw;
+    margin-top: -4vh;
+    margin-left: 1.8vw;
+    color: #e4fffa;
+    overflow: visible;
+    -webkit-text-stroke: 2px black;
+}
+
+.said-page-container .said-page-logo-label div:nth-child(1) {
+    animation: glow 5.7s 0.5s infinite;
+}
+
+.said-page-container .said-page-logo-label div:nth-child(2) {
+    animation: glow 4s infinite;
+}
+
+.said-page-container .said-page-logo-label div:nth-child(3) {
+    position: relative;
+    padding-right: 1vw;
+    font-size: 0.6em;
+    top: 4vh;
+    font-style: italic;
+    line-height: 1.2em;
+    display: inline-block;
+    color: transparent;
+    background: linear-gradient(90deg, #1be17e, #ffffff 25%, #1be17e 50%, #1be17e);
+    background-size: 200% 100%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    animation: flashing 2.5s linear infinite;
+    -webkit-text-stroke: 2px #d05cee;
+}
+
+.said-page-menu {
+    color: #e4fffa;
+    font-family: orbitron, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3.2vw;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.said-page-menu-item {
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.said-page-menu-item:hover {
+    -webkit-text-stroke: 2px black;
+    text-shadow:
+            0 0 1px #e4fffa,
+            0 0 2px #d8fee7,
+            0 0 3px #ccfcd3,
+            0 0 4px #b2fbbd,
+            0 0 5px #99faa7,
+            0 0 6px #53e11b,
+            0 0 8px #53e11b,
+            0 0 10px #53e11b;
+}
+
+.said-translation-language-selector-container {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 8px;
+    z-index: 1000000;
+}
+
+.said-translation-language-selector-container * {
+    color: #fff !important;
+}
+
+.said-page-content-barier {
+    content: "";
+    display: flex;
+    opacity: 0;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+    transition: opacity 0.5s;
+    pointer-events: none;
+}
+
+.said-page-content-barier:has(.said-page-content-section-active) {
+    opacity: 1;
+    pointer-events: all;
+}
+
+.said-page-content {
+    opacity: 0;
+    position: relative;
+    box-sizing: content-box;
+    width: 100vw;
+    height: 100vh;
+    max-width: calc(100vw - 256px);
+    max-height: calc(100vh - 256px);
+    margin: 128px;
+    z-index: 999100;
+    font-family: 'Chakra-Petch-Regular';
+    cursor: default;
+    transition: width 0.8s, height 0.8s, opacity 0.2s;
+}
+
+.said-back-button {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    opacity: 0;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 24px;
+    transition: opacity 0.2s;
+    z-index: 1;
+}
+
+.said-back-button img {
+    height: 24px;
+    cursor: pointer;
+}
+
+.said-back-button img:hover {
+    filter: blur(1px) brightness(1.5);
+    transform: scale(1.1);
+    transition: filter 1.2s, transform 0.5s;
+}
+
+.said-back-button div {
+    color: #88b478;
+    font-size: 24px;
+    font-weight: bold;
+    position: relative;
+    top: -2px;
+    white-space: nowrap;
+    overflow: hidden;
+    max-width: calc(100vw - 128px);
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 64px;
+}
+
+.said-page-content-sections-container {
+    position: relative;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: stretch;
+    align-items: stretch;
+    margin-bottom: 8px;
+    height: 100%;
+}
+
+.said-page-content-image {
+    opacity: 0;
+    background-size: cover;
+    min-width: 30vw;
+    margin-left: 16px;
+    border-radius: 16px;
+    display: none;
+    margin-top: 0;
+    transition: opacity 0.2s, margin-top 0.2s;
+}
+
+.said-page-content-image[style*="background-image"] {
+    display: block;
+    flex: 2;
+}
+
+
+.said-page-content-section {
+    font-family: orbitron, sans-serif;
+    color: #bfd7b7;
+    text-align: justify;
+    font-size: 11pt;
+    padding: 8px;
+    margin-top: 40px;
+    flex: 3;
+    opacity: 0;
+    transition: opacity 0.2s;
+    overflow-y: auto;
+    overflow-x: hidden;
+    hyphens: auto;
+}
+
+.said-page-content-section-active {
+    display: block;
+}
+
+/* width */
+.said-page-content-section::-webkit-scrollbar {
+    width: 12px;
+    cursor: pointer;
+}
+
+/* Track */
+.said-page-content-section::-webkit-scrollbar-track {
+    background: rgba(53, 103, 47, 1);
+    border: 2px solid rgba(0, 0, 0, 0.3);
+    border-radius: 4px;
+    background-clip: padding-box;
+    cursor: pointer;
+}
+
+/* Handle */
+.said-page-content-section::-webkit-scrollbar-thumb {
+    background: rgba(136, 180, 120, 0.75);
+    border: 2px solid rgba(0, 0, 0, 0.3);
+    border-radius: 4px;
+    background-clip: padding-box;
+    cursor: pointer;
+}
+
+/* Handle on hover */
+.said-page-content-section::-webkit-scrollbar-thumb:hover {
+    background: rgba(136, 180, 120, 0.9);
+}
+
+@keyframes glow {
+    0% {
+        text-shadow: none;
+    }
+    50% {
+        text-shadow:
+                0 0 1px #e4fffa,
+                0 0 2px #d8fee7,
+                0 0 3px #ccfcd3,
+                0 0 4px #b2fbbd,
+                0 0 6px #99faa7,
+                0 0 8px #53e11b,
+                0 0 10px #53e11b,
+                0 0 15px #53e11b;
+    }
+    100% {
+        text-shadow: none;
+    }
+}
+
+@keyframes flashing {
+    0% {
+        background-position: 220%;
+        -webkit-text-fill-color: transparent;
+    }
+    75% {
+        background-position: -350%;
+        -webkit-text-fill-color: #1be17e;
+    }
+    100% {
+        background-position: -350%;
+        -webkit-text-fill-color: #1be17e;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+
+    .said-page-container .said-page-logo {
+        width: 90vw;
+        max-width: none;
+        transform: translate(-50%, -50%);
+        left: 50vw;
+        top: 51vh;
+    }
+
+    .said-page-menu {
+        position: absolute;
+        width: 100vw;
+        height: 100vh;
+        top: 0;
+        left: 0;
+    }
+
+    .said-page-menu-item {
+        position: absolute;
+    }
+
+    .said-page-menu-item[data-said-page="about-us"] {
+        top: 12vh;
+        left: 5vw;
+    }
+
+    .said-page-menu-item[data-said-page="services"] {
+        top: 12vh;
+        right: 5vw;
+    }
+
+    .said-page-menu-item[data-said-page="projects"] {
+        bottom: 12vh;
+        left: 5vw;
+    }
+
+    .said-page-menu-item[data-said-page="contact"] {
+        bottom: 12vh;
+        right: 5vw;
+    }
+
+    .said-page-content-section:not([style*="overflow"]) {
+        padding-right: 12px;
+    }
+
+}
+
+@media only screen and (max-width: 767px) {
+
+    .said-page-content {
+        max-width: calc(100vw - 64px);
+        max-height: calc(100vh - 64px);
+        margin: 32px;
+    }
+
+    .said-page-container .said-page-logo {
+        width: 352vw;
+        max-width: none;
+        left: -126vw;
+        bottom: -242px;
+    }
+
+    .said-page-container .said-page-logo-label {
+        gap: 5vh;
+        font-size: 20vw;
+        bottom: 26px;
+    }
+
+    .said-page-container .said-page-logo-label div:nth-child(3) {
+        top: 0;
+    }    
+
+    .said-page-container .said-page-logo-label div:nth-child(1) {
+        position: relative;
+        top: -4px;
+    }
+
+    .said-page-container .said-page-logo-label div:nth-child(3) {
+        top: -16px;
+    }
+
+    .said-page-content-sections-container {
+        flex-direction: column-reverse;
+    }
+
+    .said-page-content-section::-webkit-scrollbar {
+        display: none;
+    }
+
+    .said-page-content-image {
+        margin-left: 0;
+        margin-top: 16px;
+        min-width: none;
+    }
+
+    .said-page-menu {
+        position: absolute;
+        top: 0;
+        padding-top: 6.5vh;
+        padding-bottom: 6.5vh;
+        background: rgba(0, 0, 0, 0.75);
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0.5) 75%, rgba(0, 0, 0, 0) 100%);
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-size: 8vw;
+        gap: 4vh;
+    }
+
+}

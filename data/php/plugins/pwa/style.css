@@ -1,0 +1,21 @@
+#page-container#page-container#page-container#page-container#page-container#page-container#page-container#page-container#page-container#page-container #et-boc > header .et_pb_menu_inner_container {
+    padding-top: 16px;
+    margin-right: -36px;
+}
+#page-container#page-container#page-container#page-container#page-container#page-container#page-container#page-container#page-container#page-container :is(.et-db #et-boc .et-l .et_pb_row) {
+    width: calc(100vw - 48px);
+}
+#page-container#page-container#page-container#page-container#page-container#page-container#page-container#page-container#page-container#page-container footer:has(.zksaid-footer) {
+    display: none;
+}
+
+#page-container#page-container#page-container#page-container#page-container#page-container#page-container#page-container#page-container#page-container .zksaid-header {
+    position: absolute !important;
+    top: 0 !important;
+}
+#page-container#page-container#page-container#page-container#page-container#page-container#page-container#page-container#page-container#page-container .et_mobile_menu li:has(a[href="/"]) {
+    display: none !important;
+}
+#page-container#page-container#page-container#page-container#page-container#page-container#page-container#page-container#page-container#page-container #et-boc > header .zksaid-header {
+    background-color: transparent !important;
+}

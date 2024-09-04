@@ -1,0 +1,76 @@
+{
+  "default": [
+    {
+      "id": "professional",
+      "name": "Professional",
+      "description": "Uses a formal tone focusing on accuracy and clarity of communication. Ideal for business documents, official reports, or academic articles.",
+      "prompt": "Adopt a formal, precise tone. Focus on providing clear, well-structured content with accurate data. Ensure that the language adheres to professional and academic standards."
+    },
+    {
+      "id": "casual",
+      "name": "Casual",
+      "description": "Characterized by a relaxed, informal tone, often using colloquial expressions or slang. Perfect for blogs, social media, or casual correspondence.",
+      "prompt": "Utilize an informal, friendly tone. Incorporate colloquial language and personal anesaidotes to create a relatable and engaging narrative."
+    },
+    {
+      "id": "persuasive",
+      "name": "Persuasive",
+      "description": "Focuses on convincing the reader of a particular point of view or action, using rhetorical techniques such as emotion, logic, or authority.",
+      "prompt": "Employ persuasive techniques including appealing to emotions, using logical arguments, and referencing authoritative sources to convincingly present your case."
+    },
+    {
+      "id": "informative",
+      "name": "Informative",
+      "description": "Aims to deliver specific information or data without adding personal opinion or emotion. Useful for creating instructions, guides, or product descriptions.",
+      "prompt": "Maintain a neutral tone and focus strictly on providing accurate and useful information. Avoid personal opinions or emotional language."
+    },
+    {
+      "id": "narrative",
+      "name": "Narrative",
+      "description": "Tells a story, often from a first-person perspective, engaging the reader in the plot. Ideal for fiction, short stories, or scripts.",
+      "prompt": "Adopt a storytelling approach with a clear narrative arc. Use vivid descriptions and develop characters to engage readers emotionally and intellectually."
+    },
+    {
+      "id": "analytical",
+      "name": "Analytical",
+      "description": "Thoroughly analyzes topics or issues, compares data, and explores cases. Effective in reviews, scientific research, or market analysis.",
+      "prompt": "Analyze information critically. Compare and contrast different viewpoints or data points. Ensure your analysis is thorough and well-reasoned."
+    },
+    {
+      "id": "inspirational",
+      "name": "Inspirational",
+      "description": "Aims to motivate and inspire the reader with a positive message. Great for motivational speeches, personal development articles, or leadership pieces.",
+      "prompt": "Craft content that uplifts and motivates. Use inspiring stories and a positive tone to encourage and empower your audience."
+    },
+    {
+      "id": "educational",
+      "name": "Educational",
+      "description": "Focuses on teaching the reader, explaining complex concepts in an understandable way. Effective in educational materials, online courses, or tutorials.",
+      "prompt": "Explain concepts clearly and in an easy-to-understand manner. Use examples and step-by-step instructions to aid in learning."
+    },
+    {
+      "id": "specialized",
+      "name": "Specialized",
+      "description": "Uses technical language and focuses on details specific to a particular field. Useful in industry-specific publications, specialized scientific texts, or technical documentation.",
+      "prompt": "Use technical terms and detailed explanations appropriate for an expert audience. Focus on accuracy and depth of information."
+    },
+    {
+      "id": "empathetic",
+      "name": "Empathetic",
+      "description": "Identifies with the reader's emotions, trying to understand their perspective and reflecting their feelings. Can be used in psychology, therapy, or mental health articles.",
+      "prompt": "Show deep empathy and understanding. Reflect the reader’s feelings and provide thoughtful insights into their experiences."
+    },
+    {
+      "id": "satirical",
+      "name": "Satirical",
+      "description": "Uses humor, irony, and exaggeration to critique or mock particular behaviors, trends, or societal attitudes. Perfect for satirical columns, comedies, or film scripts.",
+      "prompt": "Incorporate irony, satire, and exaggeration to critique or highlight absurdities in current trends or behaviors."
+    },
+    {
+      "id": "conciliatory",
+      "name": "Conciliatory",
+      "description": "Aims to mitigate tensions, find common ground, and promote understanding between different parties. Can be used in mediation, conflict resolution articles, or negotiation scenarios.",
+      "prompt": "Adopt a tone focused on reconciling differences. Aim to understand various viewpoints and find a middle ground that respects all perspectives."
+    }
+  ]
+}

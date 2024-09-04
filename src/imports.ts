@@ -1,0 +1,1 @@
+export const openAi = require('openai');

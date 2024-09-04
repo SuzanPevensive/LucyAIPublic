@@ -1,0 +1,252 @@
+[
+    {
+        "lang": "en",
+        "questions": [
+            {
+                "tags": ["price", "cost", "pricing", "fee"],
+                "answer": "The price is calculated by our experts based on the information provided in the order form, available after logging in or in the \"Continue as guest\" section."
+            },
+            {
+                "tags": ["payment", "method"],
+                "answer": "We offer various payment methods, including bank transfer, credit card payment, and PayPal. Detailed information on this subject can be obtained during a conversation with our business department."
+            },
+            {
+                "tags": ["delivery", "timeline", "schedule"],
+                "answer": "The standard timeline for creating your customized AI service is one week from finalizing all details with our business department."
+            },
+            {
+                "tags": ["data", "security", "privacy"],
+                "answer": "We employ advanced encryption and security protocols to ensure the data privacy and security of all our clients."
+            },
+            {
+                "tags": ["support", "help", "assistance"],
+                "answer": "Our support team is available 24/7 to assist you with any issues or queries you might have."
+            },
+            {
+                "tags": ["integration", "API", "connect"],
+                "answer": "We provide extensive API documentation and integration support to ensure your AI service integrates seamlessly with your existing systems."
+            },
+            {
+                "tags": ["customization", "features", "requirements"],
+                "answer": "Our AI services are highly customizable to meet your specific needs and requirements."
+            },
+            {
+                "tags": ["update", "maintenance", "upgrade"],
+                "answer": "We offer regular updates and maintenance services to keep your AI solution up-to-date and performing optimally."
+            },
+            {
+                "tags": ["trial", "demo", "sample"],
+                "answer": "We offer a trial period or demo upon request so you can evaluate our AI service before committing."
+            },
+            {
+                "tags": ["refund", "return", "money-back"],
+                "answer": "We have a refund policy in place; please check our terms and conditions for more details or discuss this with our business department."
+            },
+            {
+                "tags": ["terms", "conditions", "policy"],
+                "answer": "All transactions are governed by our terms and conditions, which you can review on our website or request from our business team."
+            },
+            {
+                "tags": ["language", "localization", "translation"],
+                "answer": "Our AI services support multiple languages and can be localized as per your requirements."
+            },
+            {
+                "tags": ["performance", "speed", "efficiency"],
+                "answer": "Our AI solutions are designed to deliver high performance, speed, and efficiency to meet the demands of your business."
+            },
+            {
+                "tags": ["scalability", "growth", "expand"],
+                "answer": "Our AI services are scalable and can grow with your business to handle increased demand effortlessly."
+            },
+            {
+                "tags": ["cloud", "hosting", "storage"],
+                "answer": "Our AI services can be hosted on the cloud, providing flexible storage options as per your needs."
+            },
+            {
+                "tags": ["training", "resources", "materials"],
+                "answer": "We provide comprehensive training and resources to help you and your team make the most out of our AI solutions."
+            },
+            {
+                "tags": ["subscription", "plan", "package"],
+                "answer": "We offer various subscription plans and packages to suit different business needs and budgets."
+            },
+            {
+                "tags": ["consultation", "advice", "guidance"],
+                "answer": "Our business experts are available for consultation to help you determine the best AI solutions for your needs."
+            },
+            {
+                "tags": ["feedback", "review", "testimonial"],
+                "answer": "We value your feedback and reviews, which help us improve our services. Feel free to share your experiences with us."
+            },
+            {
+                "tags": ["compatibility", "platform", "system"],
+                "answer": "Our AI solutions are compatible with a wide range of platforms and systems."
+            },
+            {
+                "tags": ["automation", "process", "workflow"],
+                "answer": "Our AI services can automate various business processes and workflows to improve efficiency."
+            },
+            {
+                "tags": ["geographic", "location", "region"],
+                "answer": "Our AI solutions can be customized to meet the specific needs of different geographic locations and regions."
+            },
+            {
+                "tags": ["analytics", "reporting", "insights"],
+                "answer": "We provide advanced analytics and reporting features to give you insights into your AI service performance."
+            },
+            {
+                "tags": ["personalization", "custom", "tailored"],
+                "answer": "We offer personalization options to tailor our AI services to your unique business needs."
+            },
+            {
+                "tags": ["partnership", "collaboration", "alliance"],
+                "answer": "We are open to partnerships and collaborations to create even more powerful AI solutions."
+            },
+            {
+                "tags": ["demo", "sandbox", "trial"],
+                "answer": "We offer demo and sandbox environments where you can test our AI solutions before making a commitment."
+            },
+            {
+                "tags": ["mobile", "app", "responsive"],
+                "answer": "Our AI services are mobile-friendly and can be accessed via responsive web applications."
+            },
+            {
+                "tags": ["documentation", "manual", "guide"],
+                "answer": "We provide comprehensive documentation and user guides to help you get started with our AI solutions."
+            },
+            {
+                "tags": ["legacy", "system", "integration"],
+                "answer": "Our AI services can be integrated with your legacy systems to enhance their capabilities."
+            },
+            {
+                "tags": ["prototype", "MVP", "mockup"],
+                "answer": "We can develop a prototype or minimum viable product (MVP) to validate your AI service concept."
+            }
+        ]
+    },
+    {
+        "lang": "pl",
+        "questions": [
+            {
+                "tags": ["cena", "koszt", "cennik", "opłata"],
+                "answer": "Cena obliczana jest przez naszych ekspertów na podstawie informacji przekazanych w formularzu zamówienia, dostępnego po zalogowaniu bądź w seksji \"Kontunuuj jako gość\"."
+            },
+            {
+                "tags": ["płatność", "metoda", "forma"],
+                "answer": "Oferujemy różne metody płatności, w tym przelew bankowy, płatność kartą kredytową oraz PayPal. Szczegółowe informacje na ten temat można uzyskać podczas rozmowy z naszym działem biznesowym."
+            },
+            {
+                "tags": ["dostawa", "termin", "harmonogram"],
+                "answer": "Standardowy czas realizacji usługi AI wynosi jeden tydzień od finalizacji wszystkich szczegółów z naszym działem biznesowym."
+            },
+            {
+                "tags": ["dane", "bezpieczeństwo", "prywatność"],
+                "answer": "Stosujemy zaawansowane protokoły szyfrowania i zabezpieczeń, aby zapewnić ochronę prywatności i bezpieczeństwa wszystkich naszych klientów."
+            },
+            {
+                "tags": ["wsparcie", "pomoc", "asysta"],
+                "answer": "Nasz zespół wsparcia jest dostępny 24/7, aby pomóc w razie jakichkolwiek problemów lub pytań."
+            },
+            {
+                "tags": ["integracja", "API", "połączenie"],
+                "answer": "Oferujemy obszerną dokumentację API i wsparcie integracji, aby zapewnić płynne połączenie z Twoimi istniejącymi systemami."
+            },
+            {
+                "tags": ["personalizacja", "funkcje", "wymagania"],
+                "answer": "Nasze usługi AI są wysoce konfigurowalne, aby spełniać Twoje specyficzne potrzeby i wymagania."
+            },
+            {
+                "tags": ["aktualizacja", "utrzymanie", "modernizacja"],
+                "answer": "Oferujemy regularne aktualizacje i usługi konserwacyjne, aby zapewnić optymalną wydajność Twojego rozwiązania AI."
+            },
+            {
+                "tags": ["próba", "demonstracja", "próbka"],
+                "answer": "Oferujemy okres próbny lub demonstrację na życzenie, aby można było ocenić naszą usługę AI przed podjęciem decyzji."
+            },
+            {
+                "tags": ["zwrot", "rejestracja", "gwarancja", "pieniędzy"],
+                "answer": "Mamy politykę zwrotów. Więcej szczegółów można znaleźć w naszych warunkach lub omówić to z naszym działem biznesowym."
+            },
+            {
+                "tags": ["warunki", "reguły", "polityka"],
+                "answer": "Wszystkie transakcje są regulowane przez nasze warunki, które można przejrzeć na naszej stronie internetowej lub poprosić nasz zespół biznesowy o szczegóły."
+            },
+            {
+                "tags": ["język", "lokalizacja", "tłumaczenie"],
+                "answer": "Nasze usługi AI obsługują wiele języków i mogą być dostosowane do lokalnych potrzeb."
+            },
+            {
+                "tags": ["wydajność", "szybkość", "efektywność"],
+                "answer": "Nasze rozwiązania AI są zaprojektowane, aby zapewniać wysoką wydajność, szybkość i efektywność, spełniając wymagania Twojej firmy."
+            },
+            {
+                "tags": ["skalowalność", "wzrost", "rozszerzenie"],
+                "answer": "Nasze usługi AI są skalowalne i mogą rozwijać się wraz z Twoją firmą, aby obsługiwać zwiększone zapotrzebowanie."
+            },
+            {
+                "tags": ["chmura", "hosting", "przechowywanie"],
+                "answer": "Nasze usługi AI mogą być hostowane w chmurze, oferując elastyczne opcje przechowywania zgodnie z Twoimi potrzebami."
+            },
+            {
+                "tags": ["szkolenie", "zasoby", "materiały"],
+                "answer": "Zapewniamy kompleksowe szkolenia i zasoby, aby pomóc Tobie i Twojemu zespołowi w pełni wykorzystać nasze rozwiązania AI."
+            },
+            {
+                "tags": ["subskrypcja", "plan", "pakiet"],
+                "answer": "Oferujemy różne plany subskrypcji i pakiety, aby sprostać różnym potrzebom biznesowym i budżetom."
+            },
+            {
+                "tags": ["konsultacja", "rada", "wsparcie"],
+                "answer": "Nasi eksperci biznesowi są dostępni do konsultacji, aby pomóc Ci określić najlepsze rozwiązania AI dla Twoich potrzeb."
+            },
+            {
+                "tags": ["opinia", "recenzja", "referencje"],
+                "answer": "Twoje opinie i recenzje są dla nas cenne i pomagają nam doskonalić nasze usługi. Podziel się swoimi doświadczeniami."
+            },
+            {
+                "tags": ["kompatybilność", "platforma", "system"],
+                "answer": "Nasze rozwiązania AI są zgodne z szeroką gamą platform i systemów."
+            },
+            {
+                "tags": ["automatyzacja", "proces", "przepływ pracy"],
+                "answer": "Nasze usługi AI mogą automatyzować różne procesy biznesowe i przepływy pracy, zwiększając efektywność."
+            },
+            {
+                "tags": ["geograficzny", "lokalizacja", "region"],
+                "answer": "Nasze rozwiązania AI mogą być dostosowane do specyficznych potrzeb różnych lokalizacji geograficznych i regionów."
+            },
+            {
+                "tags": ["analiza", "raportowanie", "wgląd"],
+                "answer": "Zapewniamy zaawansowane funkcje analityczne i raportowanie, aby dostarczyć wgląd w wydajność Twojej usługi AI."
+            },
+            {
+                "tags": ["indywidualizacja", "dostosowane", "spersonalizowane"],
+                "answer": "Oferujemy opcje personalizacji, aby dostosować nasze usługi AI do Twoich unikalnych potrzeb biznesowych."
+            },
+            {
+                "tags": ["partnerstwo", "współpraca", "sojusz"],
+                "answer": "Jesteśmy otwarci na partnerstwa i współpracę w celu tworzenia jeszcze bardziej zaawansowanych rozwiązań AI."
+            },
+            {
+                "tags": ["demo", "piaskownica", "próbka"],
+                "answer": "Oferujemy środowiska demonstracyjne i piaskownice, w których można przetestować nasze rozwiązania AI przed podjęciem decyzji."
+            },
+            {
+                "tags": ["mobilność", "aplikacja", "responsywność"],
+                "answer": "Nasze usługi AI są przyjazne dla urządzeń mobilnych i mogą być dostępne za pomocą responsywnych aplikacji internetowych."
+            },
+            {
+                "tags": ["dokumentacja", "podręcznik", "poradnik"],
+                "answer": "Oferujemy kompleksową dokumentację i poradniki użytkownika, aby pomóc Ci rozpocząć korzystanie z naszych rozwiązań AI."
+            },
+            {
+                "tags": ["starszy", "system", "integracja"],
+                "answer": "Nasze usługi AI mogą być zintegrowane z Twoimi starszymi systemami, aby zwiększyć ich możliwości."
+            },
+            {
+                "tags": ["prototyp", "MVP", "makieta"],
+                "answer": "Możemy opracować prototyp lub minimalny opłacalny produkt (MVP), aby zweryfikować koncepcję Twojej usługi AI."
+            }
+        ]
+    }
+]

@@ -1,0 +1,115 @@
+[
+  {
+    "model": "-",
+    "unit-name": "token",
+    "unit-count": 1,
+    "input-algorithm-price": 0,
+    "output-algorithm-price": 0,
+    "input-price": 0,
+    "output-price": 0
+  },
+  {
+    "model": "gpt-4o-mini",
+    "unit-name": "token",
+    "unit-count": 2000,
+    "input-algorithm-price": 0.0003,
+    "output-algorithm-price": 0.0012,
+    "input-price": 0.00006,
+    "output-price": 0.00024
+  },
+  {
+    "model": "profitpark:gpt-4o-mini",
+    "unit-name": "token",
+    "unit-count": 2000,
+    "input-algorithm-price": 0.00,
+    "output-algorithm-price": 0.00,
+    "input-price": 0.00006,
+    "output-price": 0.00024
+  },
+  {
+    "model": "gpt-4o",
+    "unit-name": "token",
+    "unit-count": 2000,
+    "input-algorithm-price": 0.05,
+    "output-algorithm-price": 0.15,
+    "input-price": 0.01,
+    "output-price": 0.03
+  },
+  {
+    "model": "profitpark:gpt-4o",
+    "unit-name": "token",
+    "unit-count": 2000,
+    "input-algorithm-price": 0.00,
+    "output-algorithm-price": 0.00,
+    "input-price": 0.01,
+    "output-price": 0.03
+  },
+  {
+    "model": "gpt-4-turbo",
+    "unit-name": "token",
+    "unit-count": 2000,
+    "input-algorithm-price": 0.10,
+    "output-algorithm-price": 0.30,
+    "input-price": 0.02,
+    "output-price": 0.06
+  },
+  {
+    "model": "profitpark:gpt-4-turbo",
+    "unit-name": "token",
+    "unit-count": 2000,
+    "input-algorithm-price": 0.00,
+    "output-algorithm-price": 0.00,
+    "input-price": 0.02,
+    "output-price": 0.06
+  },
+  {
+    "model": "gpt-4",
+    "unit-name": "token",
+    "unit-count": 2000,
+    "input-algorithm-price": 0.30,
+    "output-algorithm-price": 0.60,
+    "input-price": 0.06,
+    "output-price": 0.12
+  },
+  {
+    "model": "profitpark:gpt-4",
+    "unit-name": "token",
+    "unit-count": 2000,
+    "input-algorithm-price": 0.00,
+    "output-algorithm-price": 0.00,
+    "input-price": 0.06,
+    "output-price": 0.12
+  },
+  {
+    "model": "gpt-3.5-turbo",
+    "unit-name": "token",
+    "unit-count": 2000,
+    "input-algorithm-price": 0.005,
+    "output-algorithm-price": 0.015,
+    "input-price": 0.001,
+    "output-price": 0.003
+  },
+  {
+    "model": "profitpark:gpt-3.5-turbo",
+    "unit-name": "token",
+    "unit-count": 2000,
+    "input-algorithm-price": 0.00,
+    "output-algorithm-price": 0.00,
+    "input-price": 0.001,
+    "output-price": 0.003
+  },
+  {
+    "model": "play.ht",
+    "unit-name": "character",
+    "unit-count": 1,
+    "input-algorithm-price": 0.00125,
+    "input-price": 0.0003125
+  },
+  {
+    "model": "nova-2",
+    "unit-name": "minute",
+    "unit-count": 1,
+    "input-algorithm-price": 0.01,
+    "input-price": 0.0025
+  }
+]

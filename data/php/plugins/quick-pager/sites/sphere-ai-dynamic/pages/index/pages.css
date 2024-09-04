@@ -1,0 +1,4 @@
+.said-page-content-sections-container:has(.said-page-content-section-about-us) .said-page-content-image {
+  background-size: 180% auto;
+  background-position: 55% 40%;
+}

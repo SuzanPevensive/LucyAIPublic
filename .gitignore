@@ -1,0 +1,11 @@
+/package-lock.json
+/node_modules
+/temp
+/dist
+logger.log
+/.idea/copilot/chatSessions/00000000000.xd
+/.idea/copilot/chatSessions/blobs/version
+/.idea/copilot/chatSessions/xd.lck
+/data/php/wp_plugin/said-plugins.zip
+/data/php/wp_plugin/said-plugins-test.zip
+/log

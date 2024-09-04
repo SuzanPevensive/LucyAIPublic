@@ -1,0 +1,223 @@
+.said-plugins-page-templater-create-template-link {
+    color: #c96c06;
+    cursor: pointer;
+}
+
+.said-plugins-page-templater-translate-template-link {
+    color: rgba(165, 140, 224, 0.75);
+    cursor: pointer;
+    display: none;
+ }
+
+#said-plugins-page-templater-barier {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.75);
+    z-index: 999999;
+}
+
+#said-plugins-page-templater-dialog-container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    z-index: 999999;
+}
+
+#said-plugins-page-templater-dialog {
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+#said-plugins-page-templater-dialog input {
+    padding-left: 16px;
+    width: 100%;
+    box-sizing: border-box;
+    border: 2px solid #aaa;
+    border-radius: 5px;
+    margin-bottom: 0 !important;
+    padding-right: 20px;
+}
+
+#said-plugins-page-templater-dialog button {
+    font-size: 1.1em;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin-top: 32px;
+    background-color: #73bb7d;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    color: white;
+}
+
+#said-plugins-page-templater-dialog #said-plugins-page-templater-cities-from-csv-button {
+    margin-top: 0;
+    font-size: 25px;
+    padding: 9px 9px 15px 13px;
+}
+
+#said-plugins-page-templater-dialog #said-plugins-page-templater-cities-from-csv-file-input {
+    display: none;
+}
+
+#said-plugins-page-templater-dialog #said-plugins-page-templater-city-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+}
+
+#said-plugins-page-templater-generate-text-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 48px;
+    font-size: 48px;
+    color: white;
+    z-index: 999999;
+}
+
+.said-plugins-page-templater-selected-images-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 8px;
+}
+
+.said-plugins-page-templater-buttons-group {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+
+.said-selected-image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+}
+
+.said-selected-image-container .button {
+    flex: 1;
+}
+
+#said-select-images-button {
+    margin-top: 16px;
+    margin-bottom: 24px;
+}
+
+#said-plugins-page-templater-publish-now-lever {
+    margin-left: 0;
+}
+
+#said-plugins-page-templater-language-container + .input-field {
+    margin-top: 0;
+}
+
+#said-plugins-page-templater-language-container + .input-field .said-sub-mode-description {
+    margin-top: 4px;
+}
+
+.said-plugins-page-templater-faq-question-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+.said-plugins-page-templater-faq-question-container .said-plugins-page-templater-faq-question-number {
+    font-size: 16px;
+    margin-top: 13.8px;
+}
+
+#said-plugins-page-templater-faq-toggle-button,
+#said-plugins-page-templater-mirror-queue-clear-button,
+#said-plugins-page-templater-remove-failed-button,
+#said-plugins-page-templater-images-groups-toggle-button,
+#said-plugins-page-templater-html-fragments-toggle-button {
+    margin-left: 8px;
+}
+
+#said-plugins-page-templater-control-panel {
+    margin-top: 20px;
+}
+
+#said-plugins-page-templater-generate-button, 
+#said-plugins-page-templater-mirror-queue-clear-button,
+#said-plugins-page-templater-remove-failed-button {
+    color: #000 !important;
+    outline: #000 1px solid;
+    box-shadow: none;
+}
+
+:is(
+    #said-plugins-page-templater-generate-button, 
+    #said-plugins-page-templater-mirror-queue-clear-button,
+    #said-plugins-page-templater-remove-failed-button
+):hover {
+    outline-width: 2px;
+}
+
+#said-plugins-page-templater-images-groups-container,
+#said-plugins-page-templater-faq-container,
+#said-plugins-page-templater-html-fragments-container {
+    overflow: hidden !important;
+    transition: all 2s;
+}
+
+#said-plugins-page-templater-images-groups-container.collapsed,
+#said-plugins-page-templater-faq-container.collapsed,
+#said-plugins-page-templater-html-fragments-container.collapsed {
+    height: 1px !important;
+}
+
+#said-plugins-page-templater-control-panel-header {
+    margin-top: 0;
+    margin-bottom: 16px;
+}
+
+#said-plugins-page-templater-templates-selector-container {
+    margin-top: 0;
+}
+
+.said-plugins-page-templater-faq-group-container {
+    border-top: 3px solid black;
+    margin-top: 16px;
+}
+
+.said-plugins-page-templater-remove-failed-dialog .input-field {
+    margin-top: 48px !important;
+}
+
+.said-plugins-page-templater-remove-failed-dialog input {
+    margin-bottom: 4px !important;
+}
+
+.datepicker-calendar-container * {
+    box-sizing: border-box !important;
+}
+
+.said-plugins-page-templater-html-fragment-content {
+    min-height: 280px;
+    padding: 0;
+}

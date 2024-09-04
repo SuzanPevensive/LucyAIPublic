@@ -1,0 +1,36 @@
+{
+    "*": {
+        "menu": {
+            "about_us": "About Us",
+            "services": "Services",
+            "projects": "Projects",
+            "contact": "Contact"
+        },
+        "about_us": {
+            "title": "Welcome to Sphere AI Dynamics!",
+            "content": {
+                "first": "At Sphere AI Dynamics, we are passionate about leveraging the power of artificial intelligence to build innovative solutions that transform industries and create new possibilities. Our expertise lies in developing cutting-edge algorithms for data processing, image, audio, and video generation. We continuously push the boundaries of what AI can achieve to deliver state-of-the-art products tailored to our clients' unique needs.",
+                "second": "In addition to our AI-focused endeavors, we specialize in creating both classic and modern websites and mobile applications. Our development team is proficient in designing user-friendly and visually appealing digital experiences, whether or not they incorporate AI functionalities.",
+                "third": "Our mission is to enable businesses to harness the full potential of technology by providing advanced tools and solutions. We believe in a collaborative approach, working closely with our clients to understand their goals and deliver products that exceed their expectations.",
+                "fourth": "With Sphere AI Dynamics, you'll find a committed partner dedicated to driving innovation and excellence. Join us on our journey to explore the endless possibilities of artificial intelligence and beyond."
+            }
+        }
+    },
+    "pl": {
+        "menu": {
+            "about_us": "O nas",
+            "services": "Usługi",
+            "projects": "Projekty",
+            "contact": "Kontakt"
+        },
+        "about_us": {
+            "title": "Witaj w Sphere AI Dynamics!",
+            "content": {
+                "first": "W Sphere AI Dynamics pasjonujemy się wykorzystaniem potęgi sztucznej inteligencji do budowania innowacyjnych rozwiązań, które transformują branże i tworzą nowe możliwości. Nasza ekspertyza leży w opracowywaniu najnowocześniejszych algorytmów do przetwarzania danych, generowania obrazów, dźwięku i wideo. Ciągle przesuwamy granice tego, czego może osiągnąć AI, aby dostarczać produkty najwyższej klasy dostosowane do unikalnych potrzeb naszych klientów.",
+                "second": "Oprócz naszych działań związanych z AI, specjalizujemy się w tworzeniu zarówno klasycznych, jak i nowoczesnych stron internetowych i aplikacji mobilnych. Nasz zespół deweloperski jest biegły w projektowaniu przyjaznych dla użytkownika i wizualnie atrakcyjnych doświadczeń cyfrowych, niezależnie od tego, czy zawierają funkcje AI.",
+                "third": "Nasza misja polega na umożliwieniu firmom wykorzystania pełnego potencjału technologii, dostarczając zaawansowane narzędzia i rozwiązania. Wierzymy w podejście współpracy, ściśle współpracując z naszymi klientami, aby zrozumieć ich cele i dostarczyć produkty, które przekraczają ich oczekiwania.",
+                "fourth": "Z Sphere AI Dynamics znajdziesz zaangażowanego partnera, który poświęca się innowacjom i doskonałości. Dołącz do nas w podróży, aby odkrywać nieskończone możliwości sztucznej inteligencji i nie tylko."
+            }
+        }
+    }
+}

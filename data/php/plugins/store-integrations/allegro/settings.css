@@ -1,0 +1,144 @@
+.product-image img, .offer-image img, img.product-image, img.offer-image {
+    width: 48px;
+    height: 48px;
+    object-fit: cover;
+    border-radius: 32px;
+}
+
+.form-select h4:first-child {
+    margin-bottom: 0;
+}
+
+.product-name, .offer-name {
+    width: 320px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-left: 16px;
+}
+
+.dropdown-content[style*=display]:not([style*="display: none"]) {
+    display: flex !important;
+    flex-direction: column !important;
+    width: auto !important;
+    height: auto !important;
+    overflow-x: hidden !important;
+    overflow-y: auto !important;
+    max-height: 80vh !important;
+}
+
+:is(.chosen-offer, .chosen-product) li, .dropdown-content[style*=display] li {
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center;
+    padding: 8px !important;
+    margin: 0 !important;
+}
+
+.said-allegro-integration-container {
+    position: relative;
+    max-width: 1024px;
+    min-width: 800px;
+    margin: 64px 48px 0 0;
+}
+
+.said-allegro-integration-container h2:first-child {
+    margin-bottom: 16px;
+}
+
+.offers-search-and-filters {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+
+.offers-search-and-filters .sep {
+    flex: 1;
+}
+
+.offers-tables .offers-table {
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    gap: 16px;
+}
+
+.offers-tables h3.section-title {
+    border-bottom: 1px solid #000 !important;
+    margin-top: 32px;
+    margin-bottom: 16px;
+    padding-bottom: 8px;
+}
+
+.product-container, .offer-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.said-plugins-store-integrations-store-products {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px;
+    margin: 0 0 0 64px;
+}
+
+.offer-name-container {
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+
+.offer-name {
+    text-overflow: ellipsis;
+    display: inline-flex;
+    width: 320px;
+    white-space: normal;
+}
+
+.chosen-product {
+    max-width: 280px;
+}
+
+.said-plugins-store-integrations-store-products .dropdown-trigger{
+    transform: rotate(90deg);
+    color: black;
+    background-color: transparent;
+    max-height: 16px;
+    text-decoration: none;
+}
+
+.said-input-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.chosen-product img {
+    min-width: 32px;
+    width: 32px;
+    height: 32px;
+}
+
+#store-products-dropdown {
+    background-color: #ffffff;
+    padding-top: 8px;
+}
+
+#store-products-dropdown li {
+    cursor: pointer;
+    display: flex;
+    padding-left: 8px;
+    align-items: center;
+}
+
+.options-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;
+}

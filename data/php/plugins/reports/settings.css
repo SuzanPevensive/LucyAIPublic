@@ -1,0 +1,56 @@
+#said_plugins_reports_data_table_overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.85);
+    z-index: 1000000;
+}
+
+@keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform:rotate(360deg);
+    }
+}
+
+#said_plugins_reports_data_table_loader {
+    position: fixed;
+    top: calc(50% - 2em);
+    left: calc(50% - 2em);
+    width: 4em;
+    height: 4em;
+    background-size: contain;
+    border-radius: 50%;
+    background-color: white;
+    z-index: 1000001;
+    rotate: 0deg;
+    animation:spin 1s linear infinite;
+}
+
+#said_plugins_reports_info_phrase,
+#said_plugins_reports_info_from,
+#said_plugins_reports_info_to {
+    display: none;
+}
+
+.report-container{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    margin: 64px;
+}
+
+.report-container > form > input {
+    margin-bottom: 1.5em;
+}
+
+#said_plugins_reports_data_table > thead,
+#said_plugins_reports_data_table.widefat > thead{
+    background-color: #4cbceb;
+}
+
+#said_plugins_reports_data_table.widefat > thead > tr > th {
+    color: #ffffff;
+}

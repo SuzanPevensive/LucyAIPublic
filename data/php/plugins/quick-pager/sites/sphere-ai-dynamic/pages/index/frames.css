@@ -1,0 +1,70 @@
+@import url("{{page-url}}/frame01.css");
+
+.said-frame{
+    overflow: visible;
+}
+
+.said-frame-top, .said-frame-bottom, .said-frame-left, .said-frame-right  {
+    position: absolute;
+    background-repeat: repeat;
+}
+
+.said-frame-top, .said-frame-bottom {
+    width: var(--said-frame-edge-length);
+    height: var(--said-frame-edge-weight);
+    background-size: auto var(--said-frame-edge-weight);
+}
+
+.said-frame-left, .said-frame-right {
+    width: var(--said-frame-edge-weight);
+    height: var(--said-frame-edge-length);
+    background-size: var(--said-frame-edge-weight) auto;
+}
+
+.said-frame-top {
+    left: var(--said-frame-edge-weight);
+    top: var(--said-frame-offset);
+}
+
+.said-frame-right {
+    top: var(--said-frame-edge-weight);
+    right: var(--said-frame-offset);
+}
+
+.said-frame-bottom {
+    left: var(--said-frame-edge-weight);
+    bottom: var(--said-frame-offset);
+}
+
+.said-frame-left {
+    top: var(--said-frame-edge-weight);
+    left: var(--said-frame-offset);
+}
+
+.said-frame-top-right, .said-frame-top-left, .said-frame-bottom-right, .said-frame-bottom-left {
+    position: absolute;
+    width: var(--said-frame-corner-size);
+    height: var(--said-frame-corner-size);
+    background-repeat: no-repeat;
+    background-size: var(--said-frame-corner-size) var(--said-frame-corner-size);
+}
+
+.said-frame-top-left {
+    top: var(--said-frame-offset);
+    left: var(--said-frame-offset);
+}
+
+.said-frame-top-right {
+    top: var(--said-frame-offset);
+    right: var(--said-frame-offset);
+}
+
+.said-frame-bottom-left {
+    bottom: var(--said-frame-offset);
+    left: var(--said-frame-offset);
+}
+
+.said-frame-bottom-right {
+    bottom: var(--said-frame-offset);
+    right: var(--said-frame-offset);
+}

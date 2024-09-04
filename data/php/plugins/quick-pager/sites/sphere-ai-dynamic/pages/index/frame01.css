@@ -1,0 +1,35 @@
+.said-frame-01 {
+    background-color: rgba(15, 73, 37, 0.95);
+}
+
+.said-frame-01 .said-frame-top {
+    background-image: url("{{page-url}}/images/frame-01-edge.webp");
+}
+
+.said-frame-01 .said-frame-right {
+    background-image: url("{{page-url}}/images/frame-01-edge.webp?rotate=90");
+}
+
+.said-frame-01 .said-frame-bottom {
+    background-image: url("{{page-url}}/images/frame-01-edge.webp?rotate=180");
+}
+
+.said-frame-01 .said-frame-left {
+    background-image: url("{{page-url}}/images/frame-01-edge.webp?rotate=270");
+}
+
+.said-frame-01 .said-frame-top-left {
+    background-image: url("{{page-url}}/images/frame-01-corner.webp");
+}
+
+.said-frame-01 .said-frame-top-right {
+    background-image: url("{{page-url}}/images/frame-01-corner.webp?rotate=90");
+}
+
+.said-frame-01 .said-frame-bottom-right {
+    background-image: url("{{page-url}}/images/frame-01-corner.webp?rotate=180");
+}
+
+.said-frame-01 .said-frame-bottom-left {
+    background-image: url("{{page-url}}/images/frame-01-corner.webp?rotate=270");
+}

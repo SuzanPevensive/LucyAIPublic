@@ -1,0 +1,105 @@
+#said-plugins-filter-form {
+    display: flex;
+    flex-direction: column;
+}
+
+#said-plugins-filter-form input[type="number"] {
+    max-width: 96px;
+    text-align: right;
+}
+
+#said-plugins-filter-form input::-webkit-outer-spin-button,
+#said-plugins-filter-form input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+#said-plugins-filter-form input[type=number] {
+    -moz-appearance: textfield;
+}
+
+#said-plugins-filter-form label:has(input[type="number"])::after {
+    content: "zł";
+    position: relative;
+    left: -32px;
+}
+
+#said-plugins-filter-form div {
+    display: flex;
+}
+
+#said-plugins-filter-form > div {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+#said-plugins-filter-form > div > div {
+    flex: 1;
+    max-width: 280px;
+    flex-direction: column;
+    margin: 8px;
+}
+
+#said-plugins-filter-form > div > div:not(:has(#said-plugins-filter-in-stock)) {
+    min-width: 280px;
+}
+
+#said-plugins-filter-form > div > div:has(#said-plugins-filter-in-stock) {
+    max-width: 96px;
+}
+
+#said-plugins-filter-form > div > div:has(#said-plugins-filter-button) {
+    justify-content: flex-end;
+}
+
+#said-plugins-filter-form > div > div > div {
+    flex-direction: row;
+}
+
+#said-plugins-filter-form label:has(#said-plugins-filter-in-stock) {
+    padding-left: 0 !important;
+    margin-left: -18px !important;
+}
+
+#said-plugins-filter-form #said-plugins-filter-button::after {
+    margin-top: 1px;
+}
+
+@media (min-width: 769px) {
+    #said-plugins-filter-form #said-plugins-filter-button {
+        max-width: 128px;
+        margin-left: 160px;
+        position: relative;
+        top: 1px;
+    }
+}
+
+@media (max-width: 768px) {
+    #said-plugins-filter-form > div {
+        flex-direction: column;
+    }
+    #said-plugins-filter-form > div > div {
+        max-width: none;
+        margin: 2px;
+    }
+    #said-plugins-filter-form > div > div:not(:has(#said-plugins-filter-in-stock)) {
+        min-width: auto;
+    }
+    #said-plugins-filter-form label:has(#said-plugins-filter-in-stock) {
+        margin-top: -4px;
+    }
+    #said-plugins-filter-form label:has(input[type="number"]) {
+        max-width: 163px;
+        white-space: nowrap;
+    }
+    #said-plugins-filter-form input[type="number"] {
+        max-width: calc(100% - 4px);
+    }
+    #said-plugins-filter-form #said-plugins-filter-price-to {
+        margin-left: 4px;
+    }
+    #said-plugins-filter-form #said-plugins-filter-button {
+        margin-top: 16px;
+    }
+}

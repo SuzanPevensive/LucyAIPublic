@@ -1,0 +1,158 @@
+.integration-settings-modal {
+    display: none;
+    position: fixed;
+    z-index: 999999;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    background: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+}
+
+.integration-settings-modal > .modal-body {
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    max-height: 80vh;
+    background: #fff;
+    padding: 16px;
+    border-radius: 8px;
+}
+
+.integration-settings-modal > .modal-body > h1:first-child {
+    margin-top: 8px;
+    margin-bottom: 32px;
+}
+
+.integration-settings-modal > .modal-body > form {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    gap: 16px;
+    flex: 1;
+}
+
+.integration-settings-modal > .modal-body > form > .scrollable {
+    overflow-y: auto;
+    overflow-x: hidden;
+    flex: 1;
+}
+
+.integration-settings-modal > .modal-body > form .section {
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 5px;
+    gap: 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+.integration-settings-modal > .modal-body > form .section .form-select {
+    display: flex;
+    flex-direction: column;
+}
+
+.integration-settings-modal > .modal-body > form .section .form-check {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.integration-settings-modal > .modal-body > form .section .visible-if-publish-on-allegro-on-true {
+    display: none;
+}
+
+.integration-settings-modal > .modal-body > form .section h3:first-child {
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+.integration-settings-modal > .modal-body > form .button-group {
+    display: flex;
+    justify-content: flex-end;
+    gap: 16px;
+    margin-bottom: 8px;
+}
+
+.integration-settings-modal > .modal-body > form .main-image-info {
+    display: none;
+}
+
+.product-image img, .offer-image img, img.product-image, img.offer-image {
+    width: 48px;
+    height: 48px;
+    object-fit: cover;
+    border-radius: 32px;
+}
+
+.form-select h4:first-child {
+    margin-bottom: 0;
+}
+
+.product-name, .offer-name {
+    width: 320px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-left: 16px;
+}
+
+.dropdown-content[style*=display] {
+    display: flex !important;
+    flex-direction: column !important;
+    width: auto !important;
+    height: auto !important;
+    overflow-x: hidden !important;
+    overflow-y: auto !important;
+    max-height: 80vh !important;
+}
+
+:is(.chosen-offer, .chosen-product) li, .dropdown-content[style*=display] li {
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center;
+    padding: 8px !important;
+    margin: 0 !important;
+}
+
+.said-stores-integration-container {
+    position: relative;
+    width: 1024px;
+    margin: 0 auto;
+}
+
+.said-stores-integration-container h2:first-child {
+    margin-bottom: 16px;
+}
+
+.products-search-and-filters {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+
+.products-search-and-filters .sep {
+    flex: 1;
+}
+
+.offers-tables .offers-table {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 16px;
+}
+
+.offers-tables h3.section-title {
+    border-bottom: 1px solid #000 !important;
+    margin-top: 32px;
+    margin-bottom: 16px;
+    padding-bottom: 8px;
+}
+
+.product-container, .offer-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}

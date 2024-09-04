@@ -1,0 +1,54 @@
+<div class="said-page-loader">
+    <div class="lds-ripple"><div></div><div></div></div>
+</div>
+<link rel="stylesheet" href="{{page-url}}/loader.css"/>
+<div class="said-page-container" style="opacity: 0;">
+    <div class="said-translation-language-selector-container said-hide-translation-language-main-selector"></div>
+    <video autoplay loop muted class="video said-page-logo">
+        <source src="{{page-url}}/video/logo.mp4" type="video/mp4"/>
+    </video>
+    <div class="said-page-slides"></div>
+    <div class="said-page-logo-label">
+        <div>Sphere</div>
+        <div>AI</div>
+        <div>Dynamic</div>
+    </div>
+    <div class="said-page-menu">
+        <div class="said-page-menu-item" data-said-page="about-us">{{_t:menu:about_us}}</div>
+        <div class="said-page-menu-item" data-said-page="services">{{_t:menu:services}}</div>
+        <div class="said-page-menu-item" data-said-page="projects">{{_t:menu:projects}}</div>
+        <div class="said-page-menu-item" data-said-page="contact">{{_t:menu:contact}}</div>
+    </div>
+    <div class="said-page-content-barier">
+        <div class="said-page-content said-frame said-frame-01">
+            <div class="said-frame-top"></div>
+            <div class="said-frame-top-right"></div>
+            <div class="said-frame-right"></div>
+            <div class="said-frame-bottom-right"></div>
+            <div class="said-frame-bottom"></div>
+            <div class="said-frame-bottom-left"></div>
+            <div class="said-frame-left"></div>
+            <div class="said-frame-top-left"></div>
+            <div class="said-back-button">
+                <img src="{{page-url}}/images/back_arrow.webp" alt="Back arrow"/>
+                <div></div>
+            </div>
+            <div class="said-page-content-sections-container">
+                <div class="said-page-content-image"></div>
+                <div 
+                    class="said-page-content-section said-page-content-section-about-us"
+                    data-said-section-name="about-us" 
+                    data-said-section-title="{{_t:about_us:title}}"
+                    data-said-section-image="{{page-url}}/images/main_building.webp"
+                    data-said-section-tolerate="2%"
+                    data-said-section-sizes="1200:502, 1000:418, 800:335"
+                >
+                    <p data-said-auto-justify>{{_t:about_us:content:first}}</p>
+                    <p data-said-auto-justify>{{_t:about_us:content:second}}</p>
+                    <p data-said-auto-justify>{{_t:about_us:content:third}}</p>
+                    <p data-said-auto-justify>{{_t:about_us:content:fourth}}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

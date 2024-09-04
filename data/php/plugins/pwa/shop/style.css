@@ -1,0 +1,48 @@
+#said-plugins-advanced-link {
+    margin-top: -8px;
+    margin-left: 8px;
+}
+#said-plugins-advanced-link::after {
+    content: "▼";
+    font-weight: bold;
+    margin-left: 4px;
+}
+#page-container#page-container#page-container#page-container#page-container#page-container#page-container#page-container#page-container#page-container #said-plugins-filter-form:not(.open) :has([id*="said-plugins-filter"]) :is([id*="said-plugins-filter"], label):not(#said-plugins-filter-search, #said-plugins-filter-button) {
+    display: none !important;
+}
+.woocommerce-result-count {
+    display: none;
+}
+#page-container#page-container#page-container#page-container#page-container#page-container#page-container#page-container#page-container#page-container :is(.woocommerce-ordering, .woocommerce-ordering select) {
+    min-width: 100%;
+}
+
+#page-container#page-container#page-container#page-container#page-container#page-container#page-container#page-container#page-container#page-container .said-price-slider-container {
+    width: 100% !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    margin: 28px 0 16px !important;
+}
+#page-container#page-container#page-container#page-container#page-container#page-container#page-container#page-container#page-container#page-container .said-price-slider-wrapper {
+    position: relative !important;
+    width: 100% !important;
+}
+#page-container#page-container#page-container#page-container#page-container#page-container#page-container#page-container#page-container#page-container .said-price-slider-track {
+    position: absolute !important;
+    top: 50% !important;
+    transform: translateY(-50%) !important;
+    width: 100% !important;
+    height: 24px !important;
+    padding: 0 !important
+}
+#page-container#page-container#page-container#page-container#page-container#page-container#page-container#page-container#page-container#page-container :is(.said-price-slider-tooltip-min, .said-price-slider-tooltip-max){
+    position: absolute !important;
+    top: 0 !important;
+    transform: translate(-50%, -100%) !important;
+    white-space: nowrap !important;
+    margin-top: -5px !important;
+    padding: 2px 8px !important;
+    border-radius: 16px !important;
+    border: solid 1px black !important;
+}

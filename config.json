@@ -1,0 +1,117 @@
+{
+  "debug": true,
+  "server": {
+    "testMode": true,
+    "host": "...",
+    "testHost": "...",
+    "port": "5000",
+    "test-port": "4999",
+    "endpoints": {
+      "createPayment": "/create-payment",
+      "cancelPayment": "/cancel-payment",
+      "checkPaymentStatus": "/check-payment-status",
+      "wpPlugins": "/wp-plugins",
+      "ask": "/ask",
+      "cancelJob": "/cancel-job",
+      "clearQueue": "/clear-queue",
+      "answer": "/answer",
+      "translate": "/translate",
+      "translateLanguages": "/translate-languages",
+      "getSubModes": "/get-sub-modes",
+      "translateEdit": "/translate-edit",
+      "verifyEmail": "/verify-email",
+      "useEmailCode": "/use-email-code",
+      "register": "/register",
+      "login": "/login",
+      "remindPassword": "/remind-password",
+      "remindPasswordForm": "/remind-password-form",
+      "changePassword": "/change-password",
+      "updateEnterpriseData": "/update-enterprise-data",
+      "userInfo": "/user-info",
+      "usersList": "/users-list",
+      "getUserMonthlyCosts": "/get-user-monthly-costs",
+      "getUserJobs": "/get-user-jobs",
+      "getUserPackages": "/get-user-packages",
+      "getAvailablePackages": "/get-available-packages",
+      "getUserApps": "/get-user-apps",
+      "getEnterpriseUsers": "/get-enterprise-users",
+      "enterpriseInfo": "/enterprise-info",
+      "getUserQueues": "/get-user-queues",
+      "getJobRequests": "/get-job-requests",
+      "getRequestAnswer": "/get-request-answer",
+      "getPackageByName": "/get-package-by-name"
+    },
+    "whitelist": [
+      {
+        "key": "locale",
+        "domains": [
+          "http://localhost:4998",
+          "http://localhost:4999",
+          "http://localhost:5000",
+          "http://localhost:5001",
+          "http://localhost:5101",
+          "http://localhost:5199"
+        ]
+      },
+      {
+        "key": "default",
+        "domains": []
+      }
+    ]
+  },
+  "products": [
+    "lucy-ai",
+    "products_filter",
+    "pwa",
+    "reports",
+    "store-integrations",
+    "page-templater"
+  ],
+  "mongodb": {
+    "protocol": "mongodb",
+    "server": "...",
+    "database": "...",
+    "test-database": "...",
+    "username": "...",
+    "password": "...",
+    "collections": {
+      "jobs": "jobs",
+      "requests": "requests",
+      "sessions": "sessions",
+      "users": "users",
+      "packages": "packages",
+      "emails": "emails",
+      "translations": "translations"
+    }
+  },
+  "mailer": {
+    "host": "...",
+    "port": 465,
+    "secure": true,
+    "tls": false,
+    "email": "...",
+    "emailName": "Sphere AI Dynamics",
+    "password": "...",
+    "emails": {
+      "checkout": {
+        "subject": "checkout successfully",
+        "content": "temp password: {{password}}"
+      },
+      "register": {
+        "subject": "register",
+        "content": "register code: {{code}}"
+      },
+      "remind_password": {
+        "subject": "remind password",
+        "content": "remind password code: {{code}}"
+      },
+      "creator": {
+        "subject": "New customer want AI service",
+        "content": "New customer want AI service:<p>Customer email: {{email}}<br/>Service type: {{type}}<br/>Service description: {{description}}</p>"
+      }
+    }
+  },
+  "crypto": {
+    "secretKey": "--debug--"
+  }
+}

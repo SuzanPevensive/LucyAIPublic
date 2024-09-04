@@ -1,0 +1,21 @@
+Serwer nasłuchuje na porcie 4999
+Połączono z bazą danych: main_api_test.
+Collection 'jobs' already exists.
+Collection 'requests' already exists.
+Collection 'sessions' already exists.
+Collection 'users' already exists.
+Collection 'emails' already exists.
+Collection 'translations' already exists.
+Asking for model: page-templater
+Program executed
+Asking for model: page-templater
+Asking for model: page-templater
+SyntaxError: Unexpected token o in JSON at position 1
+    at JSON.parse (<anonymous>)
+    at C:\Users\zuzan\OneDrive\Desktop\Workspace\projekty\lucyai\core\dist\programs\page-templater.js:329:65
+    at step (C:\Users\zuzan\OneDrive\Desktop\Workspace\projekty\lucyai\core\dist\programs\page-templater.js:33:23)
+    at Object.next (C:\Users\zuzan\OneDrive\Desktop\Workspace\projekty\lucyai\core\dist\programs\page-templater.js:14:53)
+    at step (C:\Users\zuzan\OneDrive\Desktop\Workspace\projekty\lucyai\core\dist\programs\page-templater.js:18:139)
+    at Object.next (C:\Users\zuzan\OneDrive\Desktop\Workspace\projekty\lucyai\core\dist\programs\page-templater.js:14:53)
+    at fulfilled (C:\Users\zuzan\OneDrive\Desktop\Workspace\projekty\lucyai\core\dist\programs\page-templater.js:5:58)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
